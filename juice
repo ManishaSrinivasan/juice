@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main()
+{
+    printf("Juice items\n");
+
+    char grade;
+    printf("Enter your choice:\n");
+    scanf("%c", &g);
+
+    switch(g)
+    {
+        case '1':
+            printf("Rosemilk Rs:70\n");
+            break;
+        case '2':
+            printf("Apple Juice Rs:55\n");
+            break;
+        case '3':
+            printf("orange Juice Rs:65\n");
+            break;
+        case '4':
+            printf("Lemon Juice Rs:55\n");
+            break;
+        case '5':
+            printf("Mango Juice Rs:60\n");
+            break;
+        default:
+            printf("Invalid choice\n");
+    }
+    printf("Your choice is %c\n",g);
+    return 0;
+}
